@@ -901,7 +901,7 @@ class DividerDrawer(object):
             plotter.plot(0, -body_minus_notches, lineStyle[6])  # FF to GG
 
             # Add fold lines
-            self.canvas.setStrokeGray(0.9)
+            
             plotter.setXY(
                 left2tab, dividerHeight + stackHeight + dividerBaseHeight
             )  # ?  to X
